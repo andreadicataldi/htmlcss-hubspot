@@ -10,8 +10,8 @@ body {
   color: #33475B;
 }
 
-.w1500 {
-  width: 1500px;
+.w1400 {
+  width: 1400px;
   margin: auto;
 }
 
@@ -25,6 +25,7 @@ body {
   width: 100%;
   height: 80px;
   background-color: #F4F9FD;
+  border-bottom: 1px solid #32495b;
 }
 
 .nav-bottom {
@@ -34,10 +35,11 @@ body {
 
 .nav-top-left {
   float: left;
-  padding: 30px;
+  padding: 30px 30px 30px 0px;
+  text-align: left;
 }
 
-.fa-chevron-down {
+.border {
   border-right: 2px solid #899397;
   padding-right: 20px;
 }
@@ -48,9 +50,68 @@ body {
 
 .nav-top-right {
   float: right;
+  text-align: right;
+  padding: 30px 0px 30px 30px;
 }
 
-.nav-top a {
+header a {
   text-decoration: none;
+}
+
+.nav-top-left a {
   color: #33475B;
+}
+
+.search {
+  color: #00a4bd;
+  font-size: 14px;
+}
+
+.login {
+  font-size: 14px;
+  color: #fe785a;
+  border: 1px solid #fe785a;
+  border-radius: 5px;
+  padding: 11px 10px;
+  background: #fafcfe;
+  margin-left: 20px;
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.getsmall {
+  font-size: 14px;
+  color:  #fafcfe;
+  border: 1px solid #fe785a;
+  border-radius: 5px;
+  padding: 11px 10px;
+  background: #fe785a;
+  margin-left: 20px;
+}
+
+.getsmall:hover {
+  background-color: rgba(254, 120, 90, .8);
+}
+
+.nav-bottom-left {
+  float: left;
+  padding: 30px 30px 30px 0px;
+  text-align: left;
+}
+
+.nav-bottom-right {
+  float: right;
+  text-align: right;
+  padding: 30px 0px 30px 30px;
+}
+
+.nav-bottom-right a {
+  color: #33475B;
+  margin-left: 20px;
+}
+
+.nav-bottom-right i {
+  margin-left: 20px;
 }
