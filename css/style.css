@@ -172,3 +172,57 @@ header a {
   border-top: 3px solid #33475B;
   border-bottom: 3px solid #33475B;
 }
+
+.offer {
+  background-color: #f4f9fd;
+}
+
+.offer-cont {
+  margin: auto;
+  text-align: center;
+}
+
+.integrations {
+  width: 250px;
+  margin-top: 50px;
+}
+
+.offer-cont h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.offer-cont > p {
+  width: 635px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.crm {
+  margin: auto;
+  background-color: red;
+  width: 885px;
+  height: 328px;
+  margin-bottom: 50px;
+}
+
+.col-container {
+  height: 655px;
+  text-align: center;
+}
+
+.col {
+  float: left;
+  width: 265px;
+  height: 655px;
+  background-color: red;
+}
+
+.col-left {
+  margin-left: 232px;
+}
+
+.col-center {
+  margin: 0px 45px;
+}
