@@ -192,8 +192,8 @@ header a {
   margin-bottom: 30px;
 }
 
-.offer-cont > p {
-  width: 635px;
+.offer-cont>p {
+  width: 50%;
   margin: auto;
   text-align: center;
   margin-bottom: 50px;
@@ -201,10 +201,72 @@ header a {
 
 .crm {
   margin: auto;
-  background-color: red;
+  background-color: #ffffff;
   width: 885px;
   height: 328px;
   margin-bottom: 50px;
+  box-shadow: 0 0 5px rgba(50, 73, 91, 0.2);
+  border-radius: 5px;
+}
+
+.crm-left {
+  float: left;
+  text-align: center;
+  margin: auto;
+}
+
+.crm-left img {
+  height: 100px;
+  margin: 53px 0px 35px 80px;
+}
+
+.learnmore a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fafcfe;
+  border: 1px solid #fe785a;
+  border-radius: 5px;
+  padding: 20px 40px;
+  background: #fe785a;
+  margin-left: 80px;
+}
+
+.crm-right {
+  float: right;
+  width: 55%;
+  text-align: left;
+  margin-right: 80px;
+}
+
+.crm-right h3 {
+  margin-bottom: 30px;
+  font-size: 150%;
+  margin-top: 53px;
+}
+
+.crm-right hr {
+  display: inline-block;
+  margin-top: 8px;
+  float: right;
+  width: 300px;
+  border: 1px solid #899397;
+}
+
+.popolar {
+  margin: 20px 50px 30px 0px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.crm-right li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.crm-right i {
+  margin-right: 10px;
+    color: #fe785a;
 }
 
 .col-container {
@@ -216,7 +278,9 @@ header a {
   float: left;
   width: 265px;
   height: 655px;
-  background-color: red;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px rgba(50, 73, 91, 0.2);
+  border-radius: 5px;
 }
 
 .col-left {
